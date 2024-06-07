@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="intro" class="intro-section">
+        <img src="cover-image.jpg" alt="Maze Game Cover Image" class="cover-image">
+        <h1>Maze Game</h1>
+        <p class="description">Navigate through challenging mazes to find hidden objects.</p>
+        <a href="#game" class="start-button">Start Game</a>
+    </section>
+    
+    <section id="features" class="features-section">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="feature1.jpg" alt="Feature 1">
+            <h3>Multiple Levels</h3>
+            <p>Choose from Easy, Medium, Hard, and Extreme levels to match your skill.</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.jpg" alt="Feature 2">
+            <h3>Intuitive Controls</h3>
+            <p>Use keyboard arrow keys to navigate through the maze effortlessly.</p>
+        </div>
+        <div class="feature">
+            <img src="feature3.jpg" alt="Feature 3">
+            <h3>Engaging Gameplay</h3>
+            <p>Explore intricate mazes and find the hidden objects to win.</p>
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <h2>About This Project</h2>
+        <p>This project was inspired by my love for puzzles and challenges. I wanted to create an engaging game that not only tests your navigation skills but also provides a fun and rewarding experience. Developed as part of my portfolio at Holberton School, this project showcases my skills in HTML, CSS, and JavaScript.</p>
+        <div class="team-links">
+            <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+            <a href="https://twitter.com/your-profile" target="_blank">Twitter</a>
+        </div>
+        <p>Check out the project repository on <a href="https://github.com/your-repo" target="_blank">GitHub</a>.</p>
+    </section>
+
+    <div class="container">
+        <div class="level-selection" id="game">
+            <h2>Select Difficulty Level</h2>
+            <button class="level-button" onclick="startGame('easy')">Easy</button>
+            <button class="level-button" onclick="startGame('medium')">Medium</button>
+            <button class="level-button" onclick="startGame('hard')">Hard</button>
+            <button class="level-button" onclick="startGame('extreme')">Extreme</button>
+        </div>
+        
+        <div class="instructions">
+            <h2>Instructions</h2>
+            <p>Use the arrow keys on your keyboard to move through the maze:</p>
+            <ul>
+                <li>Up Arrow: Move up</li>
+                <li>Down Arrow: Move down</li>
+                <li>Left Arrow: Move left</li>
+                <li>Right Arrow: Move right</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
